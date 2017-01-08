@@ -5,8 +5,6 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 ## Update .bash_profile
 ```
-vim ~/.bash_profile
-
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
