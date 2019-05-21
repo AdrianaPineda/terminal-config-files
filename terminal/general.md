@@ -3,6 +3,7 @@
 ## Jump
 * https://github.com/rupa/z
 * https://github.com/gsamokovarov/jump
+* https://github.com/wting/autojump
 
 ## Oh my zsh 
 https://ohmyz.sh/
