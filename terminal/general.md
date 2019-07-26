@@ -5,6 +5,10 @@
 * https://github.com/gsamokovarov/jump
 * https://github.com/wting/autojump
 
+```
+brew install autojump
+```
+
 ## Oh my zsh 
 https://ohmyz.sh/
 
