@@ -9,7 +9,6 @@ fi
 # Get the current branch name
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
 TRIMMED=$(echo $BRANCH_NAME | grep -io 'replaceme-\d*') # TODO
-UPPER_TRIMMED=${TRIMMED^^}
 
 # Preprend the trimmed branch identifier to the given message
 if [ -n "$BRANCH_NAME" ] ; then
