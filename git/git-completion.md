@@ -11,6 +11,7 @@ source ~/git-auto-complete.bash
 
 ## Source
 https://dev.to/dsc_ciet/how-to-enable-git-auto-completion-in-apple-terminal-40l2
+
 http://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
 
 ## Error handling
