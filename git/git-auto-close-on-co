@@ -1,0 +1,15 @@
+alias xcopen='open *.xcworkspace'
+
+# credit: https://stackoverflow.com/a/41848040/223656
+git()
+{
+    if [[ $# -ge 1 && "$1" == "checkout" ]]
+    then
+        echo "Killing & reopening Xcode aroung git checkout"
+        pkill Xcode
+        command git "$@"
+        xcopen
+    else
+        command git "$@"
+    fi
+}
